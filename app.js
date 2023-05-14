@@ -78,9 +78,3 @@ function formatDate(epochTime) {
   return `Hoje, ${formattedDate}`
 }
 
-const userAgent = navigator.userAgent;
-const isMobile = /android|iphone|ipad|ipod|mobile/i.test(userAgent);
-
-if (isMobile) {
-window.location.href = 'http://127.0.0.1';
-}
